@@ -46,21 +46,25 @@ Navigate to cloudfront creat a cloudfront Distribution and select the s3bucket y
 select OAC and creat a new OAC:  <br/>
 <img src="image/cf-4.png" height="80%" width="80%" alt="key steps"/>
 <br />
+
 Default root object "index.html":  <br/>
 <img src="image/cf-5.png" height="80%" width="80%" alt="key steps"/>
 <br />
+
 click creat:  <br/>
 <img src="image/cf-6.png" height="80%" width="80%" alt="key steps"/>
 <br />
+
 Navigate back to your s3 bucket policy and grant cloudfront access to s3 onject:  <br/>
 <img src="image/cf-7.png" height="80%" width="80%" alt="key steps"/>
+<br />
 
 copy the distribution domain name:  <br/>
 <img src="image/cf-8.png" height="80%" width="80%" alt="key steps"/>
+<br />
 
 Open a new tap on your browser and paste the Distribution:  <br/>
 <img src="image/cf-9.png" height="80%" width="80%" alt="key steps"/>
-<br />
 <br />
 </p>
 
