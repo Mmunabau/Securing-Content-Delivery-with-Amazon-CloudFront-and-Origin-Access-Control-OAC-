@@ -29,17 +29,17 @@ Leveraged CloudFront edge locations for faster content delivery.</b>
 
 <p align="center">
 creat your s3 bucket: <br/>
- <img src="image/sc-1.png" height="80%" width="80%" alt="key steps"/>
+ <img src="image/sf-1.png" height="80%" width="80%" alt="key steps"/>
 <br />
  
 <br />
 Add object to your s3 bucket for Encryption:  <br/>
-<img src="image/sc-3.png" height="80%" width="80%" alt="key steps"/>
+<img src="image/sf-2.png" height="80%" width="80%" alt="key steps"/>
 <br />
 
 <br />
 Set Up Default Encryption: Enable SSE-S3 as the default encryption for all objects in the S3 bucket <br/>
-<img src="image/sc-4.png" height="80%" width="80%" alt="key steps"/>
+<img src="image/sf-3.png" height="80%" width="80%" alt="key steps"/>
 <br />
 
 <br />
