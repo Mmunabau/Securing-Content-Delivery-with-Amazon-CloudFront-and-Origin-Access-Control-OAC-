@@ -4,18 +4,26 @@
 This project utilizes Amazon CloudFront, a content delivery network (CDN), integrated with Amazon S3 and secured through Origin Access Control (OAC). The goal is to deliver content to users with high performance and low latency while maintaining strict security controls to restrict direct access to the origin (S3 bucket). OAC ensures that only CloudFront can access the S3 bucket, adding a layer of protection against unauthorized access. This configuration helps websites, applications, or media streaming platforms deliver secure, scalable, and fast content globally.
 <br />
 
-<h2>Deliverables: </h2>
+<h2>Deliverables </h2>
 
-- <b>Configured S3 bucket with enforced encryption standards.</b> 
-- <b>Documentation of setup, policies, and audit logs.</b>
-- <b>Optional automation to ensure compliance.</b> 
+- <b>A visual representation of the CloudFront-S3-OAC setup..</b> 
+- <b>A live, functioning CloudFront distribution delivering secure content.
+.</b>
+- <b>A secure S3 bucket with appropriate bucket policies and OAC integration..</b>
+- <b>Step-by-step setup guide, access policies, and caching strategies..</b>
+- <b>A CloudFront URL demonstrating secure and fast content delivery..</b> 
 
-<h2>Skills Demonstrated</h2>
+<h2>Skills Demostrated:</h2>
 
-- <b>AWS Security Best Practices: Implementing and enforcing encryption with SSE-S3 and SSE-KMS.</b> 
-- <b>AWS KMS Management: Creating and managing KMS keys, policies, and audit logging.</b>
-- <b>Automation and Monitoring: Using CloudTrail and Lambda to ensure encryption compliance.(optional) </b>
-- <b>Documentation and Compliance: Following security standards and documenting configurations for review. </b>
+- <b>Cloud Computing:
+Configured Amazon CloudFront for global content delivery.
+Secured Amazon S3 buckets using Origin Access Control (OAC).S.</b> 
+- <b>Security and Access Management:
+Applied IAM policies and bucket policies to restrict access.
+Enforced HTTPS-only connections for secure data transmission..</b>
+- <b>Performance Optimization:
+Implemented caching strategies to reduce latency and enhance user experience.
+Leveraged CloudFront edge locations for faster content delivery.</b>
 
 <h2>Program walk-through:</h2>
 
