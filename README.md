@@ -29,22 +29,37 @@ Leveraged CloudFront edge locations for faster content delivery.</b>
 
 <p align="center">
 creat your s3 bucket: <br/>
- <img src="image/sf-1.png" height="80%" width="80%" alt="key steps"/>
+ <img src="image/cf-1.png" height="80%" width="80%" alt="key steps"/>
 <br />
  
 <br />
 Add object to your s3 bucket for Encryption:  <br/>
-<img src="image/sf-2.png" height="80%" width="80%" alt="key steps"/>
+<img src="image/cf-2.png" height="80%" width="80%" alt="key steps"/>
 <br />
 
 <br />
-Set Up Default Encryption: Enable SSE-S3 as the default encryption for all objects in the S3 bucket <br/>
-<img src="image/sf-3.png" height="80%" width="80%" alt="key steps"/>
+Navigate to cloudfront creat a cloudfront Distribution and select the s3bucket you created  <br/>
+<img src="image/cf-3.png" height="80%" width="80%" alt="key steps"/>
 <br />
 
 <br />
-Override with SSE-KMS: Upload objects with SSE-KMS encryption for enhanced security by specifying the KMS key:  <br/>
-<img src="image/sc-5.png" height="80%" width="80%" alt="key steps"/>
+select OAC and creat a new OAC:  <br/>
+<img src="image/cf-4.png" height="80%" width="80%" alt="key steps"/>
+<br />
+Default root object "index.html":  <br/>
+<img src="image/cf-5.png" height="80%" width="80%" alt="key steps"/>
+<br />
+click creat:  <br/>
+<img src="image/cf-6.png" height="80%" width="80%" alt="key steps"/>
+<br />
+Navigate back to your s3 bucket policy and grant cloudfront access to s3 onject:  <br/>
+<img src="image/cf-7.png" height="80%" width="80%" alt="key steps"/>
+
+copy the distribution domain name:  <br/>
+<img src="image/cf-8.png" height="80%" width="80%" alt="key steps"/>
+
+Open a new tap on your browser and paste the Distribution:  <br/>
+<img src="image/cf-9.png" height="80%" width="80%" alt="key steps"/>
 <br />
 <br />
 </p>
