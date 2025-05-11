@@ -67,13 +67,3 @@ Open a new tap on your browser and paste the Distribution:  <br/>
 <img src="image/cf-9.png" height="80%" width="80%" alt="key steps"/>
 <br />
 </p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
